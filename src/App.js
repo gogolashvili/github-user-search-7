@@ -112,7 +112,7 @@ function App() {
                       />
                     </g>
                   </svg>
-                  <p className="intoText">https://github.blog</p>
+                  <p className="intoTextLink">https://github.blog</p>
                 </div>
               </div>
               <div className="div4Right">

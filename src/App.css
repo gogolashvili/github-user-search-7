@@ -40,6 +40,9 @@ header {
   gap: 15px;
   background-color: #f2f2f2;
 }
+.darkDiv:hover {
+  cursor: pointer;
+}
 .inSideCont {
   max-width: 730px;
   width: 100%;
@@ -96,6 +99,10 @@ button {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0064d7;
 }
 .warningDiv {
   display: flex;
@@ -238,6 +245,17 @@ h6 {
   font-size: 15px;
   line-height: 22px;
   color: #4b6a9b;
+}
+.intoTextLink {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #4b6a9b;
+}
+.intoTextLink:hover {
+  cursor: pointer;
 }
 .div4Left {
   width: 55%;
