@@ -27,23 +27,27 @@ p {
 header {
   width: 100%;
   height: 50px;
-  background-color: aquamarine;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: space-between;
 }
 .darkDiv {
-  width: 100px;
+  width: 80px;
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 15px;
-  background-color: chocolate;
+  background-color: #f2f2f2;
 }
 .inSideCont {
   max-width: 730px;
   width: 100%;
-  height: 500px;
-  background-color: #eab54c;
+  height: 550px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .mainCont {
   width: 100vw;
@@ -52,18 +56,20 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: darkgreen;
+  background-color: #f2f2f2;
 }
 img {
   width: 22px;
   height: 22px;
 }
 input {
-  width: 255px;
+  width: 90%;
   height: 25px;
   border: none;
   outline: none;
   font-family: "Space Mono";
+  opacity: 0.7;
+  font-size: 17px;
 }
 .searchDiv {
   width: 100%;
@@ -71,4 +77,187 @@ input {
   background: #fefefe;
   box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
   border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+button {
+  background: #0079ff;
+  border-radius: 10px;
+  width: 105px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.358);
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.warningDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.warning {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #f74646;
+}
+.searchDivInput {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.infoMainDiv {
+  width: 100%;
+  height: 70%;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 30px -10px rgba(70, 95, 187, 0.322);
+  border-radius: 15px;
+}
+.userImg {
+  width: 117px;
+  height: 117px;
+  margin-top: 30px;
+}
+.div2 {
+  width: 100%;
+  height: 23%;
+  display: flex;
+  justify-content: right;
+  margin-top: -10px;
+}
+.div3 {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #f6f8ff;
+  margin-left: 200px;
+  border-radius: 15px;
+  margin-top: -15px;
+}
+.div1 {
+  width: 100%;
+  height: 32%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.div1Right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div4 {
+  width: 80%;
+  height: 25%;
+  margin-left: 170px;
+  display: flex;
+  margin-top: 10px;
+}
+h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #2b3442;
+}
+h3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  color: #697c9a;
+}
+h4 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0079ff;
+}
+span {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #4b6a9b;
+  width: 70%;
+}
+.div3in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}
+h5 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4b6a9b;
+}
+h6 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #2b3442;
+}
+.intoText {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #4b6a9b;
+}
+.div4Left {
+  width: 55%;
+  height: 100%;
+}
+.div4Lefts {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+.div4Rights {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+.div4Right {
+  width: 45%;
+  height: 100%;
 }
