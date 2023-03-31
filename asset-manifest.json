@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/github-user-search-7/static/css/main.43bcd275.css",
-    "main.js": "/github-user-search-7/static/js/main.38630ff2.js",
+    "main.css": "/github-user-search-7/static/css/main.6402f11b.css",
+    "main.js": "/github-user-search-7/static/js/main.efc6e711.js",
+    "static/media/company.svg": "/github-user-search-7/static/media/company.10a558b8136aec76654d5180e407aacc.svg",
+    "static/media/linkImg.svg": "/github-user-search-7/static/media/linkImg.f8128cfc3a75512e12c74daafc8025da.svg",
+    "static/media/twiter.svg": "/github-user-search-7/static/media/twiter.4903f24db4eec9840b174ecad2f634e9.svg",
+    "static/media/sun.svg": "/github-user-search-7/static/media/sun.f28a8996f9959c40bdff14d5a43c08d8.svg",
+    "static/media/location.svg": "/github-user-search-7/static/media/location.73628c600ca3f66ae97ef55d7a88b527.svg",
     "index.html": "/github-user-search-7/index.html",
-    "main.43bcd275.css.map": "/github-user-search-7/static/css/main.43bcd275.css.map",
-    "main.38630ff2.js.map": "/github-user-search-7/static/js/main.38630ff2.js.map"
+    "static/media/moon.svg": "/github-user-search-7/static/media/moon.cce754cec46d095fd3ce12737f38694b.svg",
+    "main.6402f11b.css.map": "/github-user-search-7/static/css/main.6402f11b.css.map",
+    "main.efc6e711.js.map": "/github-user-search-7/static/js/main.efc6e711.js.map"
   },
   "entrypoints": [
-    "static/css/main.43bcd275.css",
-    "static/js/main.38630ff2.js"
+    "static/css/main.6402f11b.css",
+    "static/js/main.efc6e711.js"
   ]
 }
