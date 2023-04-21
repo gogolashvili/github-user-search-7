@@ -23,6 +23,8 @@ function App() {
     color: isDarkMode ? "white" : "black",
   };
 
+  // ratim dawera komentari
+
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     const options = {
